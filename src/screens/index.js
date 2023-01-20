@@ -1,0 +1,14 @@
+export { default as Categories } from './categories' ;
+export { default as Product } from './product' ;
+export { default as Products } from './products' ;  
+export { default as Cart } from './cart' ;  
+export { default as Orders } from './orders' ;  
+export { default as Auth } from './auth' ;  
+export { default as HomeScreen } from './home' ;  
+export { default as WelcomeScreen } from './home/WelcomeScreen' ;  
+export { default as Favs } from './favs' ;  
+export { default as ProductDetails } from './home' ;  
+export { default as Account } from './drawerMenu/account' ;  
+export { default as Help } from './drawerMenu/help' ;  
+export { default as Historial } from './drawerMenu/historial' ;  
+export { default as Notifications } from './drawerMenu/notifications' ;  
