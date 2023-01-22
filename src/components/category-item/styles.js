@@ -1,32 +1,41 @@
-import { StyleSheet } from 'react-native';
-import { COLORS } from '../../constants/themes/colors';
+import { StyleSheet, Dimensions } from 'react-native';
 
+import { COLORS } from '../../constants/themes/colors';
+const {width} = Dimensions.get("screen");
+const cardWidth = width - 20;
 export const styles = StyleSheet.create({
     container: {
-        flex: 1,
-        borderRadius: 10,
-        marginHorizontal: 5,
-        marginVertical: 5,
-        height: 50,
-        
+
     },
-    contentContainer: {
-        flex: 1,
+    card: {
+        height: 150,
+        minWidth: '45%',
+        // width: '90%',
+        marginHorizontal: 10,
+        margin: 10,
+        borderRadius: 15,
+        elevation: 13,
+        backgroundColor: COLORS.white,
+    },
+    cardFooterContainer: {
+        flexDirection:'row', 
+        justifyContent: 'space-between', 
+        marginTop: 10, 
+    },
+    footerInfo: {
+        backgroundColor: COLORS.gameOnSecondaryContainer,
+        paddingHorizontal: 10,
+        fontSize: 10,
         borderRadius: 10,
-        shadowColor: '#000',
-        shadowOffset: {
-            width: 0,
-            height: 1,
-        },
-        shadowOpacity: 0.2,
-        shadowRadius: 1.41,
-        elevation: 2,
-        justifyContent: 'center',
+        marginVertical: 2,
+        paddingVertical: 5
+    },
+    addToCartBtn: {
+        height: 30,
+        width: 30,
+        borderRadius: 20, 
+        backgroundColor: COLORS.gameOnPrimary,
+        justifyContent: 'center', 
         alignItems: 'center',
-        padding: 10,
-    },
-    title: {
-      fontSize: 16,
-      fontFamily: 'Lato-Bold',
-      color: COLORS.gameAmber100  },
+    }
 });

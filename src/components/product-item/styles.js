@@ -20,15 +20,20 @@ export const styles = StyleSheet.create({
         fontSize: 16,
     },
     detailContainer: {
-        flexDirection: 'row',
-        justifyContent: 'space-between',
+        width:'50%',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'flex-start',
     },
     price: {
         fontFamily: 'Lato-Bold',
         fontSize: 18,
+        marginVertical: 10,
+        paddingRight: 15,
     },
     weight: {
         fontFamily: 'Lato-Italic',
         fontSize: 14,
+        paddingVertical: 10,
     },
 });

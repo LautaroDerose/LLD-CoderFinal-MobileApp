@@ -12,7 +12,8 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/d5f27a43-84c9-4dc2-b82c-5aa0ec5de9be"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -24,10 +25,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.lautaroderose.proyectocoderapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d5f27a43-84c9-4dc2-b82c-5aa0ec5de9be"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }

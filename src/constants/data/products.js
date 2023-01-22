@@ -6,7 +6,9 @@ export const PRODUCTS = [
       description: 'clasico y delicioso pan de yema',
       weight: '60gr',
       price: 1.0,
-      image: require('../../../assets/images/undraw_Personal_text_re_vqj3.png')
+      image: require('../../../assets/images/undraw_Personal_text_re_vqj3.png'),
+      stars: 3,
+      reviews: '140 Reviews',
     },
     {
       id: 2,
@@ -15,7 +17,9 @@ export const PRODUCTS = [
       description: 'clasico y tierno pan frances',
       weight: '80gr',
       price: 1.5,
-      image: require('../../../assets/images/undraw_Personal_text_re_vqj3.png')
+      image: require('../../../assets/images/undraw_Personal_text_re_vqj3.png'),
+      stars: 3,
+      reviews: '140 Reviews',
 
     },
     {
@@ -25,7 +29,9 @@ export const PRODUCTS = [
       description: 'clasico y saludable pan integral',
       weight: '70gr',
       price: 1.8,
-      image: require('../../../assets/images/undraw_Personal_text_re_vqj3.png')
+      image: require('../../../assets/images/undraw_Personal_text_re_vqj3.png'),
+      stars: 3,
+      reviews: '140 Reviews',
     },
     {
       id: 4,
@@ -34,7 +40,9 @@ export const PRODUCTS = [
       description: 'clasico y tierno pan frances integral',
       weight: '90gr',
       price: 2.0,
-      image: require('../../../assets/images/undraw_Personal_text_re_vqj3.png')
+      image: require('../../../assets/images/undraw_Personal_text_re_vqj3.png'),
+      stars: 3,
+      reviews: '140 Reviews',
     },
     {
         id: 5,
@@ -43,7 +51,9 @@ export const PRODUCTS = [
         description: 'clasico y delicioso pan de trigo',
         weight: '60gr',
         price: 1.0,
-        image: require('../../../assets/images/undraw_Personal_text_re_vqj3.png')
+        image: require('../../../assets/images/undraw_Personal_text_re_vqj3.png'),
+        stars: 3,
+        reviews: '140 Reviews',
       },
       {
         id: 6,
@@ -52,7 +62,9 @@ export const PRODUCTS = [
         description: 'clasico y delicioso pan de hamburguesa',
         weight: '60gr',
         price: 1.0,
-        image: require('../../../assets/images/undraw_Personal_text_re_vqj3.png')
+        image: require('../../../assets/images/undraw_Personal_text_re_vqj3.png'),
+        stars: 3,
+        reviews: '140 Reviews',
       },
       {
         id: 7,
@@ -61,7 +73,9 @@ export const PRODUCTS = [
         description: 'clasico y delicioso pan de maíz',
         weight: '60gr',
         price: 1.0,
-        image: require('../../../assets/images/undraw_Personal_text_re_vqj3.png')
+        image: require('../../../assets/images/undraw_Personal_text_re_vqj3.png'),
+        stars: 3,
+        reviews: '140 Reviews',
       },
       {
         id: 8,
@@ -70,7 +84,9 @@ export const PRODUCTS = [
         description: 'clasico y delicioso pan de centeno',
         weight: '60gr',
         price: 1.0,
-        image: require('../../../assets/images/undraw_Personal_text_re_vqj3.png')
+        image: require('../../../assets/images/undraw_Personal_text_re_vqj3.png'),
+        stars: 3,
+        reviews: '140 Reviews',
       },
       {
         id: 9,
@@ -79,7 +95,9 @@ export const PRODUCTS = [
         description: 'clasico y delicioso pan de cebada',
         weight: '60gr',
         price: 1.0,
-        image: require('../../../assets/images/undraw_Personal_text_re_vqj3.png')
+        image: require('../../../assets/images/undraw_Personal_text_re_vqj3.png'),
+        stars: 3,
+        reviews: '140 Reviews',
       },
     ];
     

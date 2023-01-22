@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const Historial = () => {
+const Theme = () => {
   return (
     <View>
-      <Text>Historial</Text>
+      <Text>Theme</Text>
     </View>
   )
 }
 
-export default Historial
+export default Theme;

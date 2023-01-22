@@ -18,4 +18,10 @@ export const styles = StyleSheet.create({
         paddingTop: 10,
         marginHorizontal: 15,
     },
+    header: {
+        marginTop:20,
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        paddingHorizontal: 20,
+    },
 });

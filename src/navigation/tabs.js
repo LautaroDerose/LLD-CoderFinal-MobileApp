@@ -33,13 +33,12 @@ const TabNavigator = () => {
                 lazy: false ,
                 tabBarActiveTintColor: COLORS.gameOnPrimary,
                 tabBarInactiveTintColor: COLORS.gameOnSecondary,
+                tabBarHideOnKeyboard: true
                 
             }}
         >
             <BottomTab.Screen
-                name="HomeDraw"
-                // onPress={()=> navigation.jumpTo('Home')}
-               
+                name="HomeDraw"           
                 component={DrawerNavigator}
                 listeners={({ navigation }) => ({
                     tabPress: (event) => {
@@ -92,7 +91,7 @@ const TabNavigator = () => {
             ),
             }}
             />
-            <BottomTab.Screen name='Favs' component={HomeScreen}
+            <BottomTab.Screen name='Favs' component={Favs}
             options={{
             title: "favs",
             tabBarIcon: ({ focused }) => (
